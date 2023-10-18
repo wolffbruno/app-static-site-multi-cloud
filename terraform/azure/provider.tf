@@ -11,10 +11,12 @@ terraform {
     storage_account_name = "terraformstatebrunowolff"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
+    use_oidc             = true
   }
 }
 
 provider "azurerm" {
   features {}
-  alias = "cloud"
+  alias    = "cloud"
+  use_oidc = true
 }
