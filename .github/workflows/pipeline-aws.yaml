@@ -3,7 +3,7 @@ name: AWS pipeline
 on:
   push:
     branches:
-      - main
+      - maind
 #123123
 jobs:
   tf-run:

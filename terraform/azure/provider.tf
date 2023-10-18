@@ -17,6 +17,6 @@ terraform {
 
 provider "azurerm" {
   features {}
-  alias    = "cloud"
-  use_oidc = true
+  subscription_id = "71c23e9c-8230-4fe3-899a-a6c8abb23074"
+  tenant_id       = "11dbbfe2-89b8-4549-be10-cec364e59551"
 }
