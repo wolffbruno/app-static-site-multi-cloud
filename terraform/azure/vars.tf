@@ -1,4 +1,4 @@
 variable "storage_account_name" {
-    type    = string
-    default = "mystaticsitekb"
+  type    = string
+  default = "mystaticsitekbbrunowolff"
 }
